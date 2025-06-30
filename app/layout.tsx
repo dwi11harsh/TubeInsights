@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThreeScene, ThreeShaderBackground } from "@/components/ThreeScene";
+import { ThreeScene } from "@/components/ThreeScene";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
